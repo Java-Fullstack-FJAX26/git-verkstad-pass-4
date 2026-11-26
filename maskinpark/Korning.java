@@ -32,8 +32,8 @@ public class Korning {
 
         // Code smell: Typ-kontroll med instanceof istället för polymorfi!
         if (maskin != null) {
-            if (maskin instanceof Gravmaskin) {
-                Gravmaskin g = (Gravmaskin) maskin;
+            if (maskin instanceof GravMaskin) {
+                GravMaskin g = (GravMaskin) maskin;
                 basPris = timmar * g.getTimKostnad();
                 if (g.getSkopVolymKbm() > 2.5) {
                     basPris += timmar * 75.0; // Magic number

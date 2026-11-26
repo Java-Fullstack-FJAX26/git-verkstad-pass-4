@@ -10,7 +10,7 @@ public class Main {
         MaskinPark park = new MaskinPark();
 
         // 2. Skapa de fyra maskintyperna
-        Gravmaskin g1 = new Gravmaskin("G-101", "Volvo EC220E", 850.0, 1.8);
+        GravMaskin g1 = new GravMaskin("G-101", "Volvo EC220E", 850.0, 1.8);
         Valt v1 = new Valt("V-201", "Dynapac CA2500D", 650.0, 12.5, 2.1);
         Hjullastare h1 = new Hjullastare("H-301", "Caterpillar 950M", 750.0, 3.2, 7.5);
         Lastbil l1 = new Lastbil("L-401", "Scania R580 Dumper", 950.0, 24.0, 4, true);

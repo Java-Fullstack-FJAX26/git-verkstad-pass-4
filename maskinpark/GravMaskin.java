@@ -1,13 +1,13 @@
 package se.fjax26.maskinpark;
 
-public class Gravmaskin extends Anlaggningsmaskin {
+public class GravMaskin extends Anlaggningsmaskin {
 
     private double skopVolymKbm;
     private double hydraulTryckBar;
     private GrävArmTyp grävArmTyp;
     private int skopSlitageProcent;
 
-    public Gravmaskin(String id, String modell, double timKostnad, double skopVolymKbm) {
+    public GravMaskin(String id, String modell, double timKostnad, double skopVolymKbm) {
         super(id, modell, timKostnad);
         this.skopVolymKbm = skopVolymKbm;
         this.hydraulTryckBar = 210.0;
