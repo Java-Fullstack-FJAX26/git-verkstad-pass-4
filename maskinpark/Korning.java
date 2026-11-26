@@ -38,7 +38,7 @@ public class Korning {
                 if (g.getSkopVolymKbm() > 2.5) {
                     basPris += timmar * 75.0; // Magic number
                 }
-                if (g.getGrävArmTyp().equals("LONG_REACH")) {
+                if (g.getGrävArmTyp() == GrävArmTyp.LONG_REACH) {
                     basPris += 500.0; // Magic number
                 }
             } else if (maskin instanceof Valt) {
